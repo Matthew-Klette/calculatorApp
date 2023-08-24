@@ -4,111 +4,130 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AAF8FF"
+    android:background="#C8D2D1"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textViewTitle"
-        android:layout_width="354dp"
-        android:layout_height="172dp"
-        android:fontFamily="@font/lemon"
+        android:layout_width="365dp"
+        android:layout_height="107dp"
+        android:fontFamily="@font/gfs_didot"
+        android:hint="Your Answer will be displayed here"
         android:textAlignment="center"
+        android:textColor="#68904D"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.917" />
+        app:layout_constraintVertical_bias="0.368" />
 
     <Button
         android:id="@+id/buttonDivide"
         android:layout_width="345dp"
         android:layout_height="52dp"
-        android:backgroundTint="#244D5A"
-        android:fontFamily="@font/lemon"
+        android:backgroundTint="#14471E"
+        android:fontFamily="@font/gfs_didot"
         android:text="Division"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.655" />
-
-    <Button
-        android:id="@+id/buttonMinus"
-        android:layout_width="345dp"
-        android:layout_height="52dp"
-        android:backgroundTint="#244D5A"
-        android:fontFamily="@font/lemon"
-        android:text="Subtraction"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.914" />
 
     <Button
         android:id="@+id/buttonTimes"
         android:layout_width="345dp"
         android:layout_height="52dp"
-        android:backgroundTint="#244D5A"
-        android:fontFamily="@font/lemon"
+        android:backgroundTint="#68904D"
+        android:fontFamily="@font/gfs_didot"
         android:text="Multiplication"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.808" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="345dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#14471E"
+        android:fontFamily="@font/gfs_didot"
+        android:text="Subtraction"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
 
     <Button
         android:id="@+id/buttonAdd"
         android:layout_width="345dp"
         android:layout_height="52dp"
-        android:backgroundTint="#244D5A"
-        android:fontFamily="@font/lemon"
+        android:backgroundTint="#68904D"
+        android:fontFamily="@font/gfs_didot"
         android:text="Addition"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
-
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="139dp"
-        android:layout_height="87dp"
-        android:ems="10"
-        android:hint="Number 2"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.587" />
 
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="139dp"
         android:layout_height="87dp"
         android:ems="10"
+        android:fontFamily="@font/gfs_didot"
         android:hint="Number 1"
         android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#68904D"
+        android:textColorHint="#BD5D03"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.19" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="139dp"
+        android:layout_height="87dp"
+        android:ems="10"
+        android:fontFamily="@font/gfs_didot"
+        android:hint="Number 2"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#68904D"
+        android:textColorHint="#BD5D03"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
 
     <TextView
         android:id="@+id/textViewDisplay"
         android:layout_width="323dp"
         android:layout_height="85dp"
-        android:fontFamily="@font/lemon"
+        android:fontFamily="@font/gfs_didot"
+        android:includeFontPadding="false"
         android:text="Enter any Two Numbers"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textColor="#DA6A00"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -12,7 +12,7 @@ import kotlin.math.sqrt
 class MainActivity : AppCompatActivity() {
     private val CALCULATE = "Answers" //The IIE. (2023).
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             val numberOne = editTextText2.text.toString().toInt()//The IIE. (2023).
             val numberTwo = editTextText3.text.toString().toInt()
 
-            val sum: Number = numberOne % numberTwo
+            val sum: Number = numberOne / numberTwo
             val remainder = numberOne % numberTwo
             textViewTitle.text = "${editTextText2.text} / ${editTextText3.text} = $sum remainder ${remainder}!" //The IIE. (2023).
             //This code segment will divide the users numbers and display the answer as well as any remainders
