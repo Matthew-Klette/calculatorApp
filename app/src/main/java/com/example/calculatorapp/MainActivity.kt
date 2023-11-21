@@ -1,6 +1,7 @@
 package com.example.calculatorapp
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -30,6 +31,21 @@ class MainActivity : AppCompatActivity() {
         val buttonDivide = findViewById<Button>(R.id.buttonDivide)//The IIE. (2023).
         val buttonSquare = findViewById<Button>(R.id.buttonSquare)//The IIE. (2023).
         val buttonPower = findViewById<Button>(R.id.buttonPower)//The IIE. (2023).
+        val buttonStats = findViewById<Button>(R.id.buttonStats)//The IIE. (2023).
+
+
+
+        buttonStats.setOnClickListener {
+
+            val intent = Intent(this, Statistics::class.java)
+
+            startActivity(intent)
+        }
+
+
+
+
+
 
 
         //Square Root Calculation
